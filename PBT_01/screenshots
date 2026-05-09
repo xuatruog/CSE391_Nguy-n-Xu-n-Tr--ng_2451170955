@@ -1,0 +1,25 @@
+B4: Phân tích trang Web thực tế
+4.1: Thẻ Semantic
+<header>: Chứa nhận diện thương hiệu (Logo), ô tìm kiếm và các tiện ích đầu trang.
+
+<nav>: Hệ thống menu chính giúp chuyển hướng nhanh giữa các danh mục (Điện thoại, Laptop...).
+
+<footer>: Chứa thông tin pháp lý, tổng đài hỗ trợ và các chính sách khách hàng.
+
+4.2: Cấu trúc Table
+Nội dung: Hiển thị chi tiết thông số kỹ thuật (CPU, RAM, Hệ điều hành).
+
+Mục đích: Giúp người dùng so sánh và lựa chọn sản phẩm phù hợp.
+
+Kỹ thuật: Sử dụng <tbody> để nhóm các hàng dữ liệu thông số, giúp cấu trúc bảng rõ ràng hơn.
+
+4.3: Form tìm kiếm
+action: Trỏ tới trang kết quả (ví dụ: /tim-kiem) để xử lý dữ liệu.
+
+method="GET": Truyền từ khóa qua URL để người dùng có thể lưu lại kết quả tìm kiếm.
+
+Input types:
+
+type="text" (hoặc search): Ô để nhập tên sản phẩm.
+
+type="submit": Nút gửi yêu cầu để thực hiện lệnh tìm kiếm.
